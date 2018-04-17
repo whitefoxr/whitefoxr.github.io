@@ -23,6 +23,8 @@ disqus_username:
 markdown: kramdown
 permalink: /:categories/:title/
 
+disqus-shortname: whitefoxr
+
 # Posts settings
 future: true
 safe: false
