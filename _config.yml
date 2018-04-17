@@ -17,8 +17,8 @@ lang: "en"
 url: "http://localhost:4000" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
-disqus_username:  WhiteFoxR
 disqus_shortname: whitefoxr
+disqus_id: taeiner87@gmail.com
 
 # Build settings
 markdown: kramdown
