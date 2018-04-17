@@ -18,7 +18,7 @@ layout: default
 
     {{ content }}
 
-<div id="disqus_thread"></div>
+<div id="disqus_thread">
 <script>
 
 /**
@@ -38,7 +38,8 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                            
+ </div>
+                           
 
     <div class="post-links">
       {% if page.next.url %}
@@ -59,5 +60,5 @@ s.setAttribute('data-timestamp', +new Date());
   </div>
 </article>
 <br/>
+hhhhhh
 <br/>
-{% if site.disqus-shortname %}{% include disqus.html %}{% endif %}
